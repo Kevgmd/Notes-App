@@ -8,4 +8,5 @@
 - Design inspired by [Samsung Notes](https://play.google.com/store/apps/details?id=com.samsung.android.app.notes).
 
 ## Project Image
-![mobile view](https://github.com/Kevgmd/Notes-App/assets/140569159/738ce44c-21bf-4c0c-a1f1-bd0cd169538e)
+![mobile view](https://github.com/Kevgmd/Notes-App/assets/140569159/4bc248d3-72e8-4d1c-9fd2-8a7afea83609)
+
