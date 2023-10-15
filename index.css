@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    user-select: none;
+    list-style: none;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+.notes {
+    color: #00e927;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 20px;
+}
+.new {
+    background-color: rgb(100, 100, 100);
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    top: 70vh;
+    right: 5vh;
+}
+.new:active {
+    background-color: rgb(128, 128, 128);
+}
+.line {
+    background-color: rgb(90, 90, 90);
+    height: 2px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#written {
+    color: #00e927;
+}

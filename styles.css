@@ -1,0 +1,10 @@
+/* Apply styles to the textarea */
+#textArea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Disable manual resizing by the user */
+    overflow-y:auto; /* Enable vertical scrolling when needed */
+    max-height: 00px; /* Set a maximum height */
+}
