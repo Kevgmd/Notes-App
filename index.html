@@ -17,16 +17,12 @@
 <script>
   var titled = localStorage.getItem("title");
   if (titled) {
-    document.getElementById("Titled").textContent = Written;
-  } else {
-    document.getElementById("Titled").textContent = "There isn't any notes"
+    document.getElementById("Titled").textContent = Titled;
   }
 
   var written = localStorage.getItem("text");
   if (written) {
     document.getElementById("written").textContent = Written;
-  } else {
-    document.getElementById("written").textContent = "There isn't any notes"
   }
 </script>
 </body>
