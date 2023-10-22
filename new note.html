@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="flex">
-        <a onclick="savetext()" class="back" href="./index.html">
+        <a onclick="savetitle(), savewrite()" class="back" href="./index.html">
             <i class="fa-solid fa-chevron-left fa-lg" style="color: #00e927;"></i></a>
         <form><input class="title" id="Title" type="text" spellcheck="false" maxlength="15" placeholder="Title"></form>
         <a><i class="fa-solid fa-check check" style="color: #00e927;"></i></a>
@@ -17,17 +17,17 @@
     <div class="line"></div>
     <textarea class="write" id="Write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
 <script>
-    function savetext() {
+    function savetitle() {
         var title = document.getElementById("Title");
 
-        if (title.value.trim() !== "") {
+        if (title.value !== "") {
             localStorage.setItem("title", title)
         }
     }
-    function savetext() {
+    function savewrite() {
         var write = document.getElementById("Write");
 
-        if (write.value.trim() !== "") {
+        if (write.value !== "") {
             localStorage.setItem("write", write);
         }
     }

@@ -15,14 +15,14 @@
       <a class="new" href="./new note.html">
         <i class="fa-regular fa-pen-to-square fa-x18" style="color: #00e927;"></i></a>
 <script>
-  var titled = localStorage.getItem("title");
-  if (titled) {
-    document.getElementById("Titled").textContent = Titled;
+    var titled = localStorage.getItem("title");
+  if (titled.value !== null) {
+    document.getElementById("Titled").textContent = titled;
   }
-
-  var written = localStorage.getItem("text");
-  if (written) {
-    document.getElementById("written").textContent = Written;
+  
+    var written = localStorage.getItem("write");
+  if (written.value !== null) {
+    document.getElementById("Written").textContent = written;
   }
 </script>
 </body>
