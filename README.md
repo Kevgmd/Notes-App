@@ -1,7 +1,7 @@
 # Notes-App 📝
 ### Notes App by Kevgmd
 
-- My goal is to make a simple responsive Notes App compatible with both mobile & non-mobile devices, for personal improvement at the Web Development branch, i don't got a limit time to complete it, so the app probably won't end up finished that soon.
+- The goal in this project is to make a simple responsive Notes App compatible with both mobile & non-mobile devices, for personal improvement at the Web Development branch and for personal use, of course, i don't got a time limit to complete it, so the app probably won't be finished that soon.
 
 - Currently only the Front-End of the project got (almost) finished, currently i'm working at the Back-End.
 
