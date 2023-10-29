@@ -11,23 +11,22 @@
     <div class="flex">
         <a onclick="savetitle(), savewrite()" class="back" href="./index.html">
             <i class="fa-solid fa-chevron-left fa-lg" style="color: #00e927;"></i></a>
-        <form><input class="title" id="Title" type="text" spellcheck="false" maxlength="15" placeholder="Title"></form>
-        <a><i class="fa-solid fa-check check" style="color: #00e927;"></i></a>
+        <input class="title" id="title" type="text" spellcheck="false" maxlength="15" placeholder="Title">
     </div>
     <div class="line"></div>
-    <textarea class="write" id="Write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
+    <textarea class="write" id="write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
 <script>
     function savetitle() {
-        var title = document.getElementById("Title");
+        var title = document.getElementById("title").value;
 
-        if (title.value !== "") {
+        if (title !== "") {
             localStorage.setItem("title", title)
         }
     }
     function savewrite() {
-        var write = document.getElementById("Write");
+        var write = document.getElementById("write").value;
 
-        if (write.value !== "") {
+        if (write !== "") {
             localStorage.setItem("write", write);
         }
     }

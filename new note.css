@@ -37,7 +37,7 @@ body {
 }
 .title {
     height: 46px;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 47px);
     font-size: 30px;
 }
 .write {
@@ -54,13 +54,6 @@ body {
 }
 .write::placeholder {
     font-size: 25px;
-}
-.check {
-    padding: 16px;
-    padding-left: 23px;
-}
-.check:active {
-    opacity: 75%;
 }
 ::-webkit-scrollbar-button {
     display: none;

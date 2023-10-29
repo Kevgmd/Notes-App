@@ -10,19 +10,23 @@
 <body>
       <div class="notes"><h1>Notes</h1></div>
       <div class="line"></div>
-      <div id="Titled"></div>
-      <div id="Written"></div>
+      <div id="titled"></div>
+      <div id="written"></div>
       <a class="new" href="./new note.html">
         <i class="fa-regular fa-pen-to-square fa-x18" style="color: #00e927;"></i></a>
 <script>
-    var titled = localStorage.getItem("title");
-  if (titled.value !== null) {
-    document.getElementById("Titled").textContent = titled;
-  }
-  
-    var written = localStorage.getItem("write");
-  if (written.value !== null) {
-    document.getElementById("Written").textContent = written;
+  var titled = localStorage.getItem("title");
+
+  if (titled) {
+    document.getElementById("titled").textContent = titled;
+  } else {
+    document.getElementById("titled").textContent = "There aren't any notes"
+  } 
+
+  var written = localStorage.getItem("write");
+
+  if (written) {
+    document.getElementById("written").textContent = written;
   }
 </script>
 </body>
