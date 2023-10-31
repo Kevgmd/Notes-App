@@ -4,30 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
     <script src="https://kit.fontawesome.com/a3d2686c01.js" crossorigin="anonymous"></script>
 </head>
 <body>
-      <div class="notes"><h1>Notes</h1></div>
-      <div class="line"></div>
-      <div id="titled"></div>
-      <div id="written"></div>
-      <a class="new" href="./new note.html">
-        <i class="fa-regular fa-pen-to-square fa-x18" style="color: #00e927;"></i></a>
+    <div class="notes"><h1>Notes</h1></div>
+    <div class="line"></div>
+    <textarea class="write" id="write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
 <script>
-  var titled = localStorage.getItem("title");
+    var write = document.getElementById("write").value;
 
-  if (titled) {
-    document.getElementById("titled").textContent = titled;
-  } else {
-    document.getElementById("titled").textContent = "There aren't any notes"
-  } 
-
-  var written = localStorage.getItem("write");
-
-  if (written) {
-    document.getElementById("written").textContent = written;
-  }
+    if (write !== "") {
+        localStorage.setItem("write", write);
+    }
 </script>
 </body>
 </html>
