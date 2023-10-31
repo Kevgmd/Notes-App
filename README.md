@@ -11,5 +11,4 @@
 - I will only accept pull requests if i <ins>REALLY</ins> struggle with the development of the project, because as i said before, my goal is to improve my personal abilities and adquire experience at the Web Development branch during the process.
 
 ## Project Image
-![mobile view](https://github.com/Kevgmd/Notes-App/assets/140569159/4bc248d3-72e8-4d1c-9fd2-8a7afea83609)
-
+![screenshot](https://github.com/Kevgmd/Notes-App/assets/140569159/0710d6e5-fbff-4880-86c4-a86c6838a457)
