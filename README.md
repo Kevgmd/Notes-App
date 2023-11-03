@@ -5,6 +5,8 @@
 
 - Previously this project was supposed to be more complex than the actual release, but i still don't got the knowledge and experience to make the back-end work as intented.
 
+- The text written it's saved automatically when the text is typed, so you don't need to click any button to save it.
+
 - Design highly inspired by [Samsung Notes](https://play.google.com/store/apps/details?id=com.samsung.android.app.notes).
 
 ## Project Image
