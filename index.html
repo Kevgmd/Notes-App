@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="https://kit.fontawesome.com/a3d2686c01.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="notes"><h1>Notes</h1></div>
-    <div class="line"></div>
-    <textarea class="write" id="write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
+    <div id="notes"><h1>Notes</h1></div>
+    <div id="line"></div>
+    <textarea id="write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
 <script>
-    var write = document.getElementById("write").value;
+        var write = document.getElementById("write");
 
-    if (write !== "") {
-        localStorage.setItem("write", write);
-    }
+        write.addEventListener("input", function() {
+            var textwritten = write.value;
+            localStorage.setItem("written", textwritten);
+        });
+        
+        var written = localStorage.getItem("written");
+
+        if (written) {
+            write.value = written;
+        }
 </script>
 </body>
 </html>
