@@ -10,19 +10,6 @@
     <div id="notes"><h1>Notes</h1></div>
     <div id="line"></div>
     <textarea id="write" rows="30" spellcheck="false" placeholder="Write here..."></textarea>
-<script>
-        var write = document.getElementById("write");
-
-        write.addEventListener("input", function() {
-            var textwritten = write.value;
-            localStorage.setItem("written", textwritten);
-        });
-        
-        var written = localStorage.getItem("written");
-
-        if (written) {
-            write.value = written;
-        }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
