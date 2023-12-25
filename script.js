@@ -1,12 +1,14 @@
-var write = document.getElementById("write");
+// save the text typed in the browser via web storage
 
-write.addEventListener("input", function() {
-    var textWritten = write.value;
+var textarea = document.querySelector('textarea');
+
+textarea.addEventListener("input", function() {
+    var textWritten = textarea.value;
     localStorage.setItem("written", textWritten);
 });
 
 var written = localStorage.getItem("written");
 
 if (written) {
-    write.value = written;
+    textarea.value = written;
 }
