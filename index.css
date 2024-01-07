@@ -1,52 +1,59 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: transparent;
-    overflow-x: hidden;
-    user-select: none;
     color: #00e927;
-    outline: none;
-    border: none;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
+    margin: 0;
+    user-select: none;
     background-color: black;
 }
+
 h1 {
-    color: #00e927;
     text-align: center;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin: 20px 0 20px;
     font-size: 2.5rem;
 }
+
 #line {
     background-color: rgb(90, 90, 90);
     height: 2px;
     width: 100vw;
 }
+
 textarea {
-    height: calc(100vh - 97px);
+    height: calc(100vh - 125px);
     width: calc(100vw - 20px);
     padding: 10px;
     font-size: 1.5rem;
+    background-color: transparent;
     resize: none;
+    outline: none;
+    border: none;
 }
+
 ::selection {
     background-color: #00e927;
     color: #002006;
 }
+
 ::placeholder {
     color: #00e927;
     opacity: 50%;
 }
+
 ::-webkit-scrollbar-button {
     display: none;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: rgb(70, 70, 70);
 }
+
 ::-webkit-scrollbar-track {
     background-color: black;
 }
+
 ::-webkit-scrollbar {
     width: 3px;
 }
