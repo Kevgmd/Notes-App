@@ -1,8 +1,7 @@
 // save the text typed in the browser via web storage
-
 var textarea = document.querySelector('textarea');
 
-textarea.addEventListener("input", function() {
+textarea.addEventListener("input", function () {
     var textWritten = textarea.value;
     localStorage.setItem("written", textWritten);
 });

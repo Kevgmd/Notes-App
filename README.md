@@ -1,9 +1,7 @@
 # Notes-App 📝
 ### Notes App by Kevgmd
 
-- The goal with this project is to make a really simple responsive Notes App compatible with both mobile & non-mobile devices, for personal improvement and for personal use.
-
-- Previously this project was supposed to be more complex than the actual release, but i at the moment i don't got the knowledge and experience to make the back-end work as intented.
+- The goal with this project is to make a really simple responsive Notes App compatible with both mobile & non-mobile devices, for personal improvement and personal use.
 
 - The written text is saved automatically at the browser when the text is typed, so you don't need to click any button to save it.
 

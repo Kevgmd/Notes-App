@@ -1,0 +1,21 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "- The goal with this project is to make a really simple responsive Notes App compatible with both mobile & non-mobile devices, for personal improvement and for personal use.",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "notes",
+    "javascript",
+    "simple",
+    "electron",
+    "responsive"
+  ],
+  "author": "kevgmd",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.1"
+  }
+}
