@@ -1,14 +1,15 @@
-// save the text typed in the browser via web storage
+//Save the text typed in the browser via web storage
 
-var textarea = document.querySelector('textarea');
+const textarea = document.querySelector('textarea');
 
-textarea.addEventListener("input", function() {
-    var textWritten = textarea.value;
+textarea.addEventListener("input", function () {
+    const textWritten = textarea.value;
     localStorage.setItem("written", textWritten);
 });
 
-var written = localStorage.getItem("written");
+const written = localStorage.getItem("written");
 
+//Simple segment to make the text written still be displayed when refreshing the page.
 if (written) {
     textarea.value = written;
 }
